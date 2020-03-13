@@ -1,0 +1,27 @@
+.whole-card{
+    display:flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    max-height: 250px;
+    max-width: 150px;
+    color: black;
+}
+.picture{
+    order: 1;
+}
+.picture img{
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.title-of-project{
+    text-align: center;
+    text-emphasis: bold;
+    order:2;
+    font-weight: 600;
+}
+
+.short-describe{
+ order: 3;
+ font-size: medium;
+}
